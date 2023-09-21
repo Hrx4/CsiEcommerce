@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import CircleIcon from '@mui/icons-material/Circle';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
