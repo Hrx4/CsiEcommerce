@@ -24,14 +24,14 @@ const NavBar1 = () => {
         <li><Link to={"/"}>
         Home
         </Link></li>
-        <li><a href="#">
+        <li><a href="/#">
         Shop
         </a></li>
-        <li><a href='#'>
+        <li><a href='/#'>
         About Us
         </a></li>
         
-        <li><a href="#">Contact
+        <li><a href="/#">Contact
         </a></li>
       </ul>
 

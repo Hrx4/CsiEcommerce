@@ -24,7 +24,8 @@ const api = 'https://api.pujakaitem.com/api/products';
         func=  cartList.find((obj) => {
         if(obj.des===des)
             return true
-        })
+        }
+        )
         if(func){
             toast("Product Already Added to Cart :)");
         }

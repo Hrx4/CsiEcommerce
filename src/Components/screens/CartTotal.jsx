@@ -44,15 +44,8 @@ const CartTotal = () => {
       }
 
 
-    //   const [cartList, setCartList] = useState(itemsList)
-
-    //   useEffect(() => {
-    //     localStorage.setItem('items',JSON.stringify(cartList))
-        // localStorage.setItem('items',[JSON.stringify({"item1":"mobile1"}) ])
-    // }, [cartList])
-
 var total=0;
-   cartList.map((item)=>{
+   cartList.map((item , i) =>{
     total+=(item.price * item.count)
 }) ;
 
