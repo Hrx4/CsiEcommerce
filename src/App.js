@@ -1,11 +1,20 @@
-import './App.css';
+import React from 'react'
+import TopSellingWeek from './Components/TopSellingWeek'
 
-function App() {
+
+const App = () => {
+
+  
+
+
   return (
+
     <>
-      <div>hi</div>
+      
+      <TopSellingWeek/>
     </>
-  );
+
+  )
 }
 
-export default App;
+export default App

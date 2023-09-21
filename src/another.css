@@ -1,0 +1,21 @@
+
+
+
+  .card__item{
+    height: 430px;
+  }
+
+.tsw__img{
+    transition: 2s;
+  }
+  .card__item:hover .tsw__img{
+    transform: rotateY(360deg);
+  }
+  .card__btn{
+    display: none;
+    transition: 2s;
+  }
+  .card__item:hover  .card__btn{
+    display: flex;
+  }
+  
