@@ -22,8 +22,8 @@ const api = 'https://api.pujakaitem.com/api/products';
         console.log('====================================');
         var func =false
         func=  cartList.find((obj) => {
-        if(obj.des===des)
-            return true
+        if(obj.des===des) return true
+        return false
         }
         )
         if(func){

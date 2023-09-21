@@ -45,8 +45,7 @@ const CartTotal = () => {
 
 
 var total=0;
-   cartList.map((item , i) =>{
-    total+=(item.price * item.count)
+   cartList.map((item , i) =>{ return total+=(item.price * item.count)
 }) ;
 
   return (
